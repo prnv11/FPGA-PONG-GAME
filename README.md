@@ -88,7 +88,3 @@ CLK100MHZ ──► clk_wiz_0 ──► 25 MHz ──► vga_controller
 | `seg7_display` | `a.v` | Multiplexed 4-digit BCD score display |
 
 ---
-
-## License
-
-This project was developed as a digital design course assignment. Free to use for learning and educational purposes.

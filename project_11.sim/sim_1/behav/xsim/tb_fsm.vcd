@@ -1,0 +1,281 @@
+$date
+   Wed Apr 15 15:52:38 2026
+$end
+$version
+  2022.2
+$end
+$timescale
+  1ps
+$end
+$scope module tb_game_fsm $end
+$var reg 1 ! clk $end
+$var reg 1 " rst $end
+$var reg 12 # accel_x [11:0] $end
+$var reg 12 $ accel_y [11:0] $end
+$var reg 1 % accel_valid $end
+$var wire 10 & player_x [9:0] $end
+$var wire 10 ' player_y [9:0] $end
+$var wire 10 ( ball_x [9:0] $end
+$var wire 10 ) ball_y [9:0] $end
+$var wire 10 * score [9:0] $end
+$var wire 1 + game_over $end
+$scope module dut $end
+$var wire 1 , clk $end
+$var wire 1 - rst $end
+$var wire 12 . accel_x [11:0] $end
+$var wire 12 / accel_y [11:0] $end
+$var wire 1 0 accel_valid $end
+$var reg 10 1 player_x [9:0] $end
+$var reg 10 2 player_y [9:0] $end
+$var reg 10 3 ball_x [9:0] $end
+$var reg 10 4 ball_y [9:0] $end
+$var reg 10 5 score [9:0] $end
+$var reg 1 6 game_over $end
+$var reg 3 7 state [2:0] $end
+$var reg 11 8 ball_dx [10:0] $end
+$var reg 11 9 ball_dy [10:0] $end
+$var reg 10 : frame_cnt [9:0] $end
+$var reg 12 ; ax_filt [11:0] $end
+$var reg 12 < ay_filt [11:0] $end
+$var reg 20 = tick_cnt [19:0] $end
+$var reg 1 > tick $end
+$upscope $end
+$scope task send_accel $end
+$var reg 12 ? ax [11:0] $end
+$var reg 12 @ ay [11:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+1"
+b0 #
+b0 $
+0%
+b100100010 &
+b111001110 '
+b101000000 (
+b110010 )
+b0 *
+0+
+0,
+1-
+b0 .
+b0 /
+00
+b100100010 1
+b111001110 2
+b101000000 3
+b110010 4
+b0 5
+06
+b0 7
+b10 8
+b11 9
+b0 :
+b0 ;
+b0 <
+b0 =
+0>
+bx ?
+bx @
+$end
+#20000
+1!
+1,
+#40000
+0!
+0,
+#60000
+1!
+1,
+#80000
+0!
+0,
+#100000
+1!
+0"
+b11001000 #
+b0 $
+1%
+1,
+0-
+b11001000 .
+10
+b1 7
+b11001 ;
+b1 =
+b11001000 ?
+b0 @
+#120000
+0!
+0,
+#140000
+1!
+0%
+1,
+00
+b10 =
+#160000
+0!
+0,
+#180000
+1!
+1,
+b11 =
+#200000
+0!
+0,
+#220000
+1!
+1,
+b100 =
+#240000
+0!
+0,
+#260000
+1!
+1,
+b101 =
+#280000
+0!
+0,
+#300000
+1!
+1,
+b110 =
+#320000
+0!
+0,
+#340000
+1!
+1,
+b111 =
+#360000
+0!
+0,
+#380000
+1!
+1,
+b1000 =
+#400000
+0!
+0,
+#420000
+1!
+1,
+b1001 =
+#440000
+0!
+0,
+#460000
+1!
+1,
+b1010 =
+#480000
+0!
+0,
+#500000
+1!
+1,
+b1011 =
+#520000
+0!
+0,
+#540000
+1!
+b11001000 #
+b0 $
+1%
+1,
+10
+b101110 ;
+b1100 =
+#560000
+0!
+0,
+#580000
+1!
+0%
+1,
+00
+b1101 =
+#600000
+0!
+0,
+#620000
+1!
+1,
+b1110 =
+#640000
+0!
+0,
+#660000
+1!
+1,
+b1111 =
+#680000
+0!
+0,
+#700000
+1!
+1,
+b10000 =
+#720000
+0!
+0,
+#740000
+1!
+1,
+b10001 =
+#760000
+0!
+0,
+#780000
+1!
+1,
+b10010 =
+#800000
+0!
+0,
+#820000
+1!
+1,
+b10011 =
+#840000
+0!
+0,
+#860000
+1!
+1,
+b10100 =
+#880000
+0!
+0,
+#900000
+1!
+1,
+b10101 =
+#920000
+0!
+0,
+#940000
+1!
+1,
+b10110 =
+#960000
+0!
+0,
+#980000
+1!
+b11001000 #
+b0 $
+1%
+1,
+10
+b1000001 ;
+b10111 =
+#1000000
+0!
+0,
